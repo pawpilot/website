@@ -1,0 +1,141 @@
+.navbar {
+	background-color: #e3e3e3;
+	display: flex;
+	justify-content: space-between;
+	width: 90%;
+	padding: 1rem 2rem;
+	gap: 2rem;
+	margin-left: auto;
+	margin-right: auto;
+
+	margin-bottom: 5rem;
+	border-radius: 10px;
+	box-shadow: 0 0 10px rgb(0, 0, 0);
+	position: sticky;
+	top: 0;
+	z-index: 5;
+}
+
+.logo {
+	width: 20rem;
+	cursor: pointer;
+}
+
+.menu {
+	font-family: 'SPACE', sans-serif;
+	font-size: 13px;
+	text-transform: normal;
+	text-align: center;
+	justify-content: space-between;
+	margin: 0;
+	padding: 12px;
+	list-style: none;
+	display: inline-block;
+	margin: 0 0rem;
+}
+
+.menu:active {
+	color: #00035f;
+}
+
+.menu:hover {
+	color: #00abd1;
+}
+
+.columnmenu {
+	display: flex;
+	flex: 33.33%;
+	margin: 0px auto;
+	text-align: center;
+	justify-content: center;
+	align-items: center;
+}
+
+.columnlogo {
+	display: flex;
+	flex: 33.33%;
+	margin: 0px auto;
+	text-align: center;
+	justify-content: left;
+	align-items: center;
+	margin-left: auto;
+}
+
+.columnconnect {
+	display: flex;
+	flex: 33.33%;
+	margin: 0px auto;
+	text-align: center;
+	justify-content: right;
+	align-items: center;
+	margin-right: auto;
+}
+
+/* Media query for tablet devices */
+@media (max-width: 768px) {
+    .navbar {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .columnmenu {
+        flex-basis: 100%;
+        order: 2;
+        margin-top: 10px; /* Adjust the vertical spacing here */
+    }
+
+    .columnlogo {
+        order: 0;
+        margin-top: 10px; /* Adjust the vertical spacing here */
+    }
+
+    .columnconnect {
+        order: 1;
+        margin-top: 10px; /* Adjust the vertical spacing here */
+		font-size: 12px;
+
+    }
+
+    .menu {
+        font-size: 12px;
+    }
+}
+
+/* Media query for mobile devices */
+@media (max-width: 480px) {
+    .navbar {
+		display: flex;
+		flex-wrap: wrap;
+		padding: 1rem 1rem;
+		position: sticky;
+	  }
+	  
+
+    .columnmenu {
+        flex-basis: 100%;
+        order: 2;
+        margin-top: -30px; /* Adjust the vertical spacing here */
+		margin-bottom: -10px;
+    }
+
+    .columnlogo {
+        order: 0;
+        margin-top: 10px; /* Adjust the vertical spacing here */
+    }
+
+    .columnconnect {
+        order: 1;
+        margin-top: 0px; /* Adjust the vertical spacing here */
+		font-size: 12px;
+
+    }
+
+    .logo {
+        width: 10rem;
+    }
+
+    .menu {
+        font-size: 11px;
+		
+    }
+}

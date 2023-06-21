@@ -1,0 +1,183 @@
+.adspace1 {
+    display: flex;
+    justify-content: center;
+
+    width: 576px;
+    height: 324px;
+
+    overflow: hidden;
+	position: relative;
+    border-radius: 10px;
+    margin: 6rem auto;
+    z-index: 0;
+    box-shadow: 0 0 10px rgb(0, 0, 0);
+      /* Add some padding to the card */
+      padding: 0rem;
+ /*background: url('/dkumalogo.png') center 30% / cover no-repeat;*/
+
+}
+
+
+.adspace2 {
+    display: flex;
+    flex-flow: column wrap;
+	flex-direction: column;
+    width: 384px;
+    height: 216px;
+    overflow: hidden;
+	position: static;
+    border-radius:10px;
+	text-align: center;
+	row-gap: 3rem;
+    margin-top:2rem;
+    margin: 2rem auto;
+    z-index: 0;
+
+}
+
+.adspace3 {
+    display: inline-flex;
+    justify-content: center;
+    background-image: cover;
+    flex-flow: column wrap;
+	flex-direction: column;
+    width: 384px;
+    height: 216px;
+    overflow: hidden;
+	position: static;
+    border-radius: 10px;
+	row-gap: 1rem;
+	margin-top: 0rem;
+    margin: -.5rem auto;
+    z-index: 0;
+
+
+}
+
+
+
+
+.adspaceprint {
+    display: grid;
+
+    width: 384px;
+    height: 216px;
+    overflow: hidden;
+	position: relative;
+    z-index: 0;
+
+}
+
+.main {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(384px, 1fr));
+    grid-template-rows: repeat(auto-fit, minmax(216px, 1fr));
+    grid-gap: 1rem; /* add some spacing between grid items */
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+  }
+  
+
+
+.adspace4 {
+    display: flex;
+    flex-flow: column wrap;
+	flex-direction: column;
+    width: 384px;
+    height: 216px;
+    overflow: hidden;
+	position: static;
+    border-radius:10px;
+	text-align: center;
+	row-gap: 3rem;
+    margin-top:2rem;
+    margin: 2rem auto;
+    z-index: 0;
+
+}
+
+
+
+.adspace_image {
+    display: flex;
+    overflow: hidden;
+    align-items: center;
+
+    position: static;
+    object-fit: fill;
+    width: 384px;
+    height: 216px;
+    
+
+    
+}
+
+
+.adspacefooter {
+    display: flex;
+   
+    overflow: hidden;
+    border-radius: 10px;
+    margin: 0rem auto;
+    padding: auto;	
+	position: relative;
+
+    object-fit: fill;
+    align-items: center;  
+    width: auto;
+    height: 50px;
+    
+
+}
+
+
+.adgeneral {
+    display: flex;
+    justify-content: center;
+    object-fit: fill;
+    align-items: center;  
+    width: auto;
+    flex-flow: column wrap;
+	flex-direction: column;
+    width: 384px;
+    height: 216px;
+    overflow: hidden;
+	position: static;
+    border-radius: 10px;
+	text-align: center;
+	row-gap: 3rem;
+	margin-top: 0rem;
+    margin: -.5rem auto;
+    z-index: 0;
+
+    
+}
+
+@media (max-width: 480px) {
+
+
+	.adspace3 {
+        display: inline-flex;
+        justify-content: center;
+        background-image: cover;
+        flex-flow: column wrap;
+        flex-direction: column;
+        width: 288px; /* 75% of 384px */
+        height: 162px; /* 75% of 216px */
+        overflow: hidden;
+        position: relative;
+        border-radius: 10px;
+        row-gap: 1rem;
+        z-index: 0;
+        margin-bottom: -3rem;
+        margin-top: 2rem;
+        padding: 0;
+    }
+    
+  }
+
+  
