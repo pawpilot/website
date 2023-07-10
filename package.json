@@ -2,38 +2,34 @@
 	"name": "pawpilot",
 	"version": "0.1.0",
 	"private": true,
+	"homepage": ".",
 	"scripts": {
 		"dev": "next dev",
 		"build": "next build",
 		"start": "next start",
-		"lint": "next lint"	
+		"lint": "next lint"
 	},
-		
 	"dependencies": {
 		"@fortawesome/fontawesome-svg-core": "^6.2.1",
 		"@fortawesome/free-brands-svg-icons": "^6.2.1",
 		"@fortawesome/react-fontawesome": "^0.2.0",
-		"@mdx-js/react": "^2.3.0",
 		"@rainbow-me/rainbowkit": "^0.12.4",
 		"alchemy-sdk": "^2.6.2",
 		"bignumber.js": "^9.1.1",
-		"clsx": "^1.2.1",
-		"next": "13.1.2",
-		"prop-types": "^15.8.1",
-		"react": "18.2.0",
-		"react-dom": "18.2.0",
+		"next": "^12.3.4",
+		"npm": "^9.8.0",
+		"react": "^18.2.0",
+		"react-dom": "^18.2.0",
 		"react-helmet": "^6.1.0",
 		"react-markdown": "^8.0.7",
-		"react-player": "^2.12.0",
 		"react-select": "^5.7.3",
-		"react-social-icons": "^5.15.0",
+		"sharp": "^0.32.1",
 		"styled-components": "^5.3.6",
 		"wagmi": "^0.12.6",
 		"web3": "^4.0.1",
 		"webpack": "^5.75.0"
 	},
 	"devDependencies": {
-		"eslint": "8.36.0",
-		"eslint-config-next": "13.2.4"
+		"eslint": "8.36.0"
 	}
 }
